@@ -12,7 +12,6 @@
 // Execute the command `rustlings hint collections4` if you need
 // hints.
 
-// I AM NOT DONE
 
 use std::collections::HashMap;
 
@@ -50,6 +49,9 @@ mod tests {
         basket.insert(Fruit::Apple, 4);
         basket.insert(Fruit::Mango, 2);
         basket.insert(Fruit::Lichi, 5);
+
+        basket.insert(Fruit::Pineapple, 12);
+        basket.insert(Fruit::Banana, 5);
 
         basket
     }
